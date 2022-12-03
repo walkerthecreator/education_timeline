@@ -1,0 +1,18 @@
+
+
+    <div class="card-container" *ngFor="let Education of schools">
+        <div class="card-wrapper">
+            <div class="card">
+                <img src={{Education.img}} alt="">
+                <ul>
+                    <p id="position">{{Education.title}}</p>
+                    <p>{{Education.School}}</p>
+                    <p>{{Education.startDate}} - {{Education.endDate}} • {{Education.timeSpent}}</p>
+                </ul>
+            </div>
+            <div class="card-location">
+                <p><fa-icon [icon]="faLocationDot"></fa-icon></p>
+                <p>{{Education.location}}</p>
+            </div>
+        </div>
+        <hr>

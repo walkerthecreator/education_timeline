@@ -1,0 +1,31 @@
+[
+        {
+            "School": "Career Point University",
+            "startDate": "Aug 2019",
+            "endDate": "Present",
+            "title": "B.tech CSE",
+            "location":"Hamirpur,Himachal Pardesh",
+            "timeSpent":"3yr 6mos",
+            "img":"../assets/cpu.jfif"
+        },
+        {
+            "School": "Modern High School",
+            "startDate": "Apr 2017",
+            "endDate": "Apr 2019",
+            "title": "12th",
+            "location":"Amritsar, Punjab",
+            "timeSpent":"2yr",
+            "img":"../assets/4s.png"
+
+        },
+        {
+            "School": "Jagat Jyoti High School",
+            "startDate": "Mar 2004",
+            "endDate": "Mar 2017",
+            "title": "10th",
+            "location":"Amritsar,Punjab",
+            "timeSpent":"13 yr",
+            "img":"../assets/jjs.png"
+        }
+
+]

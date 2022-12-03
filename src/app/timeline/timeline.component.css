@@ -1,35 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-
-
-.container{
-    width: 60vw;
-    margin: 10vw auto;
-    padding: 1rem;
-    font-family:sans-serif;
-    border: 1px #f0f0f0 solid;
-}
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2vh;
-    font-size: 1.2em;
-}
-
-nav > ul{
-    display: flex;
-    justify-content: space-around; 
-    margin: 0 ;  
-
-}
-
-nav > ul > p {
-    margin: 10px;
-    font-weight: 400;
-    font-size: 20px;
-}
-
 img{
     width: 48px;
     height:48px ;
@@ -81,4 +51,10 @@ hr{
 .card-location p {
     margin: 6px;
     color:grey;
+    font-size: 14px;
 }
+@media only screen and (max-width: 1000px) {
+    .card-wrapper {
+        flex-direction: column;
+    }
+  }
